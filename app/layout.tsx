@@ -7,14 +7,14 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
 	title: {
 		default: "Rotem Skandrani",
-		template: "%s | rotem.netlify.app",
+		template: "%s | rotempro.netlify.app",
 	},
 	description: "Software engineer at upwork",
 	openGraph: {
 		title: "Rotem Skandrani",
 		description:
 			"Software engineer at upwork",
-		url: "rotem.netlify.app",
+		url: "rotempro.netlify.app",
 		siteName: "Rotem Skandrani",
 		images: [
 			{
