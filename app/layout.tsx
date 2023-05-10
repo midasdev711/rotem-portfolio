@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "Rotem Skandrani",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://rotempro.netlify.app/og.jpg",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Rotem Skandrani",
 		card: "summary_large_image",
 	},
 	icons: {
