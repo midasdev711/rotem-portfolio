@@ -15,9 +15,9 @@ export const Article: React.FC<Props> = ({ project, views }) => {
 					<span className="text-xs duration-1000 text-zinc-200 group-hover:text-white group-hover:border-zinc-200 drop-shadow-orange">
 						{project.date ? (
 							<time dateTime={new Date(project.date).toISOString()}>
-								{Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(
+								{/* {Intl.DateTimeFormat(undefined, { dateStyle: "medium" }).format(
 									new Date(project.date),
-								)}
+								)} */}
 							</time>
 						) : (
 							<span>SOON</span>
@@ -31,7 +31,10 @@ export const Article: React.FC<Props> = ({ project, views }) => {
 				<h2 className="z-20 text-xl font-medium duration-1000 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
 					{project.title}
 				</h2>
-				<p className="z-20 mt-4 text-sm  duration-1000 text-zinc-400 group-hover:text-zinc-200">
+				<p className="z-20 mt-2 text-md duration-1000 text-zinc-200 group-hover:text-white-200">
+					{project.tech}
+				</p>
+				<p className="z-20 mt-4 text-md duration-1000 text-zinc-400 group-hover:text-white-200">
 					{project.description}
 				</p>
 			</article>
