@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 		title: "Rotem Skandrani",
 		description:
 			"Software engineer at upwork",
-		url: "rotempro.netlify.app",
+		// url: "rotempro.netlify.app",
 		siteName: "Rotem Skandrani",
 		images: [
 			{
