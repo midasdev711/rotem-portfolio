@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "Rotem Skandrani",
+		template: "%s | rotem.netlify.app",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Software engineer at upwork",
 	openGraph: {
-		title: "chronark.com",
+		title: "Rotem Skandrani",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Software engineer at upwork",
+		url: "rotem.netlify.app",
+		siteName: "Rotem Skandrani",
 		images: [
 			{
 				url: "https://chronark.com/og.png",
