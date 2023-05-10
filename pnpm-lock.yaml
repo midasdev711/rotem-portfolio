@@ -7,6 +7,9 @@ dependencies:
   '@next/mdx':
     specifier: ^13.2.1
     version: 13.3.1
+  '@types/follow-redirects':
+    specifier: ^1.14.1
+    version: 1.14.1
   '@types/node':
     specifier: 18.15.10
     version: 18.15.10
@@ -25,6 +28,9 @@ dependencies:
   contentlayer:
     specifier: ^0.3.0
     version: 0.3.2(esbuild@0.17.18)(markdown-wasm@1.2.0)
+  follow-redirects:
+    specifier: ^1.15.2
+    version: 1.15.2
   framer-motion:
     specifier: ^10.9.1
     version: 10.12.4(react-dom@18.2.0)(react@18.2.0)
@@ -1422,6 +1428,12 @@ packages:
     resolution: {integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==}
     dev: false
 
+  /@types/follow-redirects@1.14.1:
+    resolution: {integrity: sha512-THBEFwqsLuU/K62B5JRwab9NW97cFmL4Iy34NTMX0bMycQVzq2q7PKOkhfivIwxdpa/J72RppgC42vCHfwKJ0Q==}
+    dependencies:
+      '@types/node': 18.15.10
+    dev: false
+
   /@types/hast@2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
     dependencies:
@@ -2147,7 +2159,6 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
-    dev: true
 
   /format@0.2.2:
     resolution: {integrity: sha512-wzsgA6WOq+09wrU1tsJ09udeR/YZRaeArL9e1wPbFg3GG2yDnC2ldKpxs4xunpFF9DgqCqOIra3bc1HWrJ37Ww==}
